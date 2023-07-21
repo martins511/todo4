@@ -1,0 +1,24 @@
+{
+    "superhero":[
+        {
+            "id":1,
+            "name":"Batman",
+            "altergo":"Bruce Wayne"
+        },
+        {
+            "id":2,
+            "name":"Superman",
+            "altergo":"Clerk Kent"
+        },
+        {
+            "id":3,
+            "name":"Wonder Woman",
+            "altergo":"Princess Diana"
+        },
+        {
+            "id":4,
+            "name":"Richards Scarry",
+            "altergo":"Lili"
+        }
+    ]
+}

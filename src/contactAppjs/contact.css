@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navcontainer{
+    display: flex;
+    background-color: lightgrey;
+    height: 60px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+ul li {
+}
+
+.navcontainer li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navcontainer li:hover{
+    /* color:white; */
+    background-color: rgb(43, 79, 199);
+    height: 20px;
+    border-radius: 2px;
+}
+
+.navcontact{
+    color: rgb(43, 79, 199);
+    font-size: 20px;
+    font-weight: bold;
+    flex-basis: 65%;
+    
+}
+.navhome{
+    flex-basis: 6%;
+}
+
+
+.navaddcontact{
+    flex-basis: 7%;
+}
+.navabout{
+    flex-basis: 6%;
+}
+.navrq{
+    flex-basis: 6%;
+}
+.searchbar input{
+    height: 20px;
+    text-align: center;
+}
+
+.navcontainer li a{
+    text-decoration: none;
+}
+
+.routes{
+    margin: 50px auto;
+    width: 30rem;
+    height: fit-content;
+    background-color: rgb(0, 128, 96);
+}
+
+.homeheader .list{
+    display: flex;
+    height: 40px;
+    background-color: rgb(0, 128, 96);
+    color: white;
+    align-items: center;
+    
+}
+
+.homeheader .list li{
+    list-style: none;
+}
+
+.homeheader .list .item1{
+    flex-basis: 8%;
+    padding-left: 7px;
+}
+
+.homeheader .list .item2{
+    flex-basis: 15%;
+}
+
+.homeheader .list .item3{
+    flex-basis: 20%;
+}
+
+.homeheader .list .item4{
+    flex-basis: 18%;
+}
+
+.homeheader .list .item5{
+    flex-basis: 15%;
+}
+
+.homeheader .list .item6{
+    flex-basis: 22%;
+}
+
+.homebody .child{
+    background-color: white;
+    height: 35px;
+    display: flex;
+    width: 30rem;
+    justify-content: space-around;
+}
+
+.homebody .child .action,p{
+    display: flex;
+    align-items: center;
+    font-size: 5px;
+}
+
+.homebody .child .action{
+    display: flex;
+    justify-content: space-around;
+    width: 8rem;
+
+}
+.homebody .child .action > button:active {
+    background-color: aqua;
+}
+.homebody .child .action .edit{
+    background-color: rgb(102, 125, 204);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.homebody .child .action .delete{
+    background-color: rgb(228, 9, 75);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.homebody .child .action .view{
+    border-radius: 3px;
+    border: none;
+}
+
+.homebody > .child p{
+    font-size: 13px;
+}
+
+.homebody > :nth-child(even) {
+    background-color: rgb(221, 218, 218);
+}
+
+.addContactContainer{
+    margin: 50px auto;
+    width: 25rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.addContactContainer input,button{
+    height: 22px;
+    width: 15rem;
+}
+
+.addContactContainer> button:active{
+    background-color: aqua;
+}
+
+.addContactContainer button{
+    background-color: rgb(139, 231, 139);
+    border-radius: 3px;
+    border: none;
+}
+
+.homebody .child input{
+    height: 22px;
+    width: 7rem;
+}
+
+@media screen and (max-width:500px) {
+    .navcontainer,.navcontact{
+        font-size: 0.6rem;
+        
+    }
+    .searchbar input{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .homeheader .list{
+        display: flex;
+        height: 30px;
+        background-color: rgb(0, 128, 96);
+        color: white;
+        align-items: center;
+        
+    }
+    .navcontainer li{
+        
+        width: 50%;
+    }
+
+    .homeheader .list{
+        width: 70%;
+    }
+    
+    
+}
